@@ -1,0 +1,29 @@
+Yung system po namin is called Fur-fect: online web and mobile based pet application for pet lovers
+
+So parang shopee po sya .. we have 3 user level po. Pet seller, buyer and admin 
+
+Anyone can sell po, so mag ccreate muna ng account then buyer po sya before registering need po ng name, valid id, address, contact number, username and password. Every login po need ng OTP to proceed po. After registering and login makikita nya yung mga available na ibebenta or ipapaadopt po then if gsto nya po mag benta ppunta sya sa settings na start selling then dun po sya magccreate ng sellers profile nya: store name, address, G-cash number, picture and valid ID po. If yung buyer po gsto bumili, may choice po sya if half or full payment then mag rereflect po sa gcash so need po ng gcash api po. Then after nya mabili or mareceive yung pet, may confirm order po na lalabas para confirmation na nakuha na ng buyer yung pet same as dun sa seller po.
+
+Sa seller po, pwede po sya mag benta or mag pa adopt ng pets so meron po syang choice if to adopt or To sell then ffillupan nya po yung form which is: the picture of pets, suggested price, pet category, complete papers/vaccination of pets, message me at, and description of the pets. Sa categorical po ang category lang is cats, dogs, birds, hamsters and others. For both pet selling and adoption po
+May rating functionality dn po which is pag clinick po yung profile ng seller makikita yung mga napost nya na ibebenta or isesell na pets. May like and dislike din po sa may name nya ibaba or gilid kayo na po bahala .. and per product may rating functionality din po na stars and comments just like shopee po.
+
+Sa admin po lahat ng transaction dadaan po sa knya ... Descriptive analytics po yung ui ng admin po so makikita po dun yung ascending users na mataas yung likes or dislikes, items na madaming ratings, and user po na madami nang na benta. Dun po sa user na madaming nabenta, in a year po yun then using line graph po. Admin can add or remove users, posted pets for selling or adoption, see all the transactions and approvals
+Pag nag create po ng account ng buyer, seller, posting ng pets for selling or adoption, transaction of payment with receipt (kahit gcash receipt link pwede po) kailangan po ng approval ng admin bago mag proceed po. Kada transaction po pag full payment may 5% po na cut yung admin and pag half payment 7% of the original price na nakabase dun sa suggested price na nilagay ng seller.
+
+Sa unang ui po na makikita ng mga user is yung pet shop products. Gawan nyo nalang po ng ui na pet shop products then sample pictures po pag tapos na then kami nalang po bahala mag edit basta po after nila mag login yun po una nila makikita
+Both process po sa mobile and web based po mangyayare. Pa inform nlng po ko if you have any further questions .. thanks
+
+
+Ihohold po muna ng admin yung bayad po.. escrow payment po
+
+So bale tatlo po.. to approved, to receive tyaka delivered ?
+
+Kase since meetup naman po.. once na ma approve na yung payment dapat po i click na ng seller yung to received before 3 days kase babalik yung payment dun sa buyer pag hindi.. 
+
+Sa to receive naman, need mag send ng seller ng picture as a proof na delivered na yung pet or nag meet na sila nung buyer then delivered na. 5 days po grace period so if 5 days wala pa din .. pede na po mag request yung buyer ng refund
+
+Dun naman po sa buyer, need nya iclick yung order received para mag reflect sa system then ibabayad na ng admin yung payment. Bawas na po dun yung cut ng shop
+
+Within 3 days d pa din ciniclick nung buyer yung order received basta delivered po yung pet automatically mappunta na sa seller yung bayad ..
+
+Ayan po

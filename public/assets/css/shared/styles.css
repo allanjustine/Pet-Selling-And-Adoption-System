@@ -1,0 +1,340 @@
+/* @font-face {
+    font-family: "montserrat-regular";
+    src: url("/assets/fonts/montserrat/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: "montserrat-medium";
+    src: url("/assets/fonts/montserrat/Montserrat-Medium.ttf");
+} */
+
+@media screen and (min-width: 520px) {
+    .dropdown-notifications {
+        width: 520px !important;
+        max-height: 520px;
+        overflow: auto;
+    }
+}
+
+/* .primary-font {
+    font-family: montserrat-regular, sans-serif;
+}
+
+* {
+    font-family: montserrat-regular, sans-serif;
+} */
+
+b,
+h1,
+h2,
+h3,
+h4 {
+    font-family: montserrat-medium, sans-serif !important;
+}
+
+.text-small {
+    font-size: 14px !important;
+}
+
+.text-smaller {
+    font-size: 12px !important;
+}
+
+.text-smallest {
+    font-size: 10px !important;
+}
+
+.breadcrumb-custom {
+    background-color: rgba(0, 0, 0, 0) !important;
+    margin-bottom: 0 !important;
+}
+
+ol.breadcrumb-custom > li > a {
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
+ol.breadcrumb-custom > li > a:hover {
+    color: white !important;
+}
+
+.bg-primary-dark {
+    background-color: rgb(23, 43, 77);
+}
+
+.bg-transluscent {
+    background-color: rgba(192, 192, 192, 0.15);
+}
+
+.bg-transluscent-dark {
+    background-color: rgba(0, 0, 0, 0.05) !important;
+}
+
+.border-rounded {
+    border-radius: 4px;
+}
+
+.no-border {
+    border: 0 !important;
+}
+
+/* Custom Html Scroll Bar*/
+html {
+    --scrollbarBG: #d2dccf;
+    --thumbBG: #90a4ae;
+}
+body::-webkit-scrollbar {
+    width: 15px;
+}
+body {
+    scrollbar-width: thin;
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+body::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+}
+body::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG);
+    border-radius: 6px;
+    border: 3px solid var(--scrollbarBG);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.bootstrap-tagsinput .tag {
+    background: #2980b9;
+    padding: 3px;
+    font-size: 14px;
+}
+
+/*Datatable*/
+#DataTables_Table_0_next > a,
+#DataTables_Table_0_previous > a {
+    color: 16, 24, 43 !important;
+}
+#DataTables_Table_0_paginate > ul > li.paginate_button.page-item.active > a {
+    background: 16, 24, 43 !important;
+    border-color: 16, 24, 43 !important;
+}
+
+#DataTables_Table_0 > thead > tr > th {
+    color: rgb(111, 111, 171) !important;
+    font-weight: 500 !important;
+}
+.dataTables_filter > label > input {
+    border: 1px solid rgb(240, 242, 245) !important;
+}
+
+/*Nav Link*/
+
+/* .nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    background: #5db75a !important;
+} */
+
+.filepond--credits {
+    display: none !important;
+}
+
+/* .select2-dropdown.increasezindex {
+    z-index: 99999;
+} */
+
+.tawk-card .tawk-card-inverse .tawk-card-xsmall .tawk-footer .tawk-flex-none {
+    display: none !important;
+}
+
+/*
+Select 2
+*/
+.select2 {
+    width: 100% !important;
+}
+
+/*Legend specific*/
+.legend {
+    padding: 6px 8px;
+    font: 14px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255, 255, 255, 0.8);
+    /*box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);*/
+    /*border-radius: 5px;*/
+    line-height: 24px;
+    color: #555;
+}
+.legend h4 {
+    text-align: center;
+    font-size: 16px;
+    margin: 2px 12px 8px;
+    color: #777;
+}
+
+.legend span {
+    position: relative;
+    bottom: 3px;
+}
+
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin: 0 8px 0 0;
+    opacity: 0.7;
+}
+
+.legend i.icon {
+    background-size: 18px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+#mapid
+    > div.leaflet-control-container
+    > div.leaflet-bottom.leaflet-right
+    > div
+    > a {
+    display: none !important;
+}
+
+/* FC */
+
+.fc-media-screen .fc-timegrid-event {
+    position: relative;
+}
+#calendar
+    > div.fc-view-harness.fc-view-harness-active
+    > div
+    > table
+    > thead
+    > tr
+    > th
+    > div
+    > div
+    > table
+    > thead
+    > tr
+    > th.fc-col-header-cell.fc-day
+    > div
+    > a {
+    color: 16, 24, 43 !important;
+}
+
+.fc-toolbar-title {
+    color: 16, 24, 43 !important;
+}
+
+#calendar .fc-today-button {
+    background: 16, 24, 43 !important;
+    border-color: 16, 24, 43 !important;
+}
+
+.fc-button {
+    background: #064a75 !important;
+    color: #f5f5f5 !important;
+    border-color: #064a75 !important;
+}
+.fc-button:hover {
+    background: #0c5d8f !important;
+    color: #fff !important;
+}
+
+/* BS tooltip*/
+
+.tooltip-inner {
+    background-color: #064a75 !important;
+    color: #fff;
+}
+.bs-tooltip-top .arrow::before,
+.bs-tooltip-auto[x-placement^="top"] .arrow::before {
+    border-top-color: #064a75 !important;
+}
+
+.bs-tooltip-right .arrow::before,
+.bs-tooltip-auto[x-placement^="right"] .arrow::before {
+    border-right-color: #064a75 !important;
+}
+
+.bs-tooltip-bottom .arrow::before,
+.bs-tooltip-auto[x-placement^="bottom"] .arrow::before {
+    border-bottom-color: #064a75 !important;
+}
+
+.bs-tooltip-left .arrow::before,
+.bs-tooltip-auto[x-placement^="left"] .arrow::before {
+    border-left-color: #064a75 !important;
+}
+
+/*Bootstrap Paginator*/
+
+/* Boostrap paginator*/
+
+.page-item.active .page-link {
+    background: #C66930 !important;
+    border-color: #C66930 !important;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+}
+
+/*File Pond*/
+
+.filepond--credits {
+    display: none !important;
+}
+
+/* scroll to top button*/
+
+.btn-fab {
+    width: 64px;
+    height: 64px;
+    text-align: center;
+    position: fixed;
+    bottom: 64px;
+    right: 64px;
+    border-radius: 50%;
+    color: white;
+    background-color: #28272b;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+/* Set the size of the div element that contains the map */
+#map {
+    height: 600px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+}
+
+#map-wrapper {
+    position: relative !important;
+}
+
+
+#place {
+    position: fixed;
+    top: 19.3% !important;
+    z-index: 1;
+}
+
+
+
+ .bootstrap-select > .dropdown-menu {
+    width: 200px !important;
+ }
+
+select > .dropdown-menu {
+    width: 200px !important;
+}
+
+
+
+/* custom select2*/
+
+.select2-container .select2-selection--single {
+    height: 45px !important;
+}
